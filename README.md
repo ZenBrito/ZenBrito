@@ -1,4 +1,4 @@
-### Hi there 👋
+![Bem vindxs ao meu perfil!](https://github.com/ZenBrito/ZenBrito/blob/main/banner_github.png)
 
 <!--
 **ZenBrito/ZenBrito** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
