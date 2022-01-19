@@ -11,4 +11,10 @@
 <p align="center">    
     <img src = "https://github-readme-stats.vercel.app/api?username=zenbrito&show_icons=true&theme=dark&line_height=40"><br>
     <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=zenbrito&theme=dark">
+    <hr/>    
+    <h3 align="center">Follow me</h3>
+     <p align="center">
+       <a href="https://www.linkedin.com/in/zen-s-brito-22a108204/"><img height="30" width="30" title="LinkedIn" src="https://raw.githubusercontent.com/ZenBrito/ZenBrito/main/img/linkedin.svg"/></a>
+       <a href="https://github.com/ZenBrito"><img  height="30" width="30"  title="GitHub" src="https://raw.githubusercontent.com/ZenBrito/ZenBrito/main/img/github.svg"/></a>
+    </p>
 </p>
