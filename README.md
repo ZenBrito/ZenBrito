@@ -11,7 +11,7 @@
 <hr>
 
 <p align="center">    
-    <img src = "https://github-readme-stats.vercel.app/api?username=zenbrito&show_icons=true&theme=dark&line_height=40"><br>
+    <img src = "https://github-readme-stats.vercel.app/api?username=zenbrito&show_icons=true&theme=dark&line_height=40">
     <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=zenbrito&theme=dark">
     <hr/>    
     <h3 align="center">Follow me</h3>
