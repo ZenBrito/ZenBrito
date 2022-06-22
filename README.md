@@ -1,8 +1,7 @@
 ## Hi, I'm Zenilton Brito
 <hr>
-<br>
 <img align="center" alt="IMG" src="./img/front1.jpg">
-<br><br>
+<br>
 
 ### Main Skills:
 
