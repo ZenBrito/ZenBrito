@@ -1,5 +1,5 @@
 ## Hi, I'm Zenilton Brito
-<img align="center" alt="IMG" src="./img/b.jpeg">
+<img align="center" alt="IMG" src="./img/banner_oficial.png">
 <br>
 
 ### Main Skills:
