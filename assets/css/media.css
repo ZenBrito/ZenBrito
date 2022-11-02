@@ -1,0 +1,45 @@
+@media (max-width: 858px) {
+    
+    header nav label {
+        display: block;
+        font-size: 3rem;
+        margin-right: 35px;
+        margin-top: 15px;
+        padding: 2px 5px;
+    }
+
+    header nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #eeeeee;
+        top: 60px;
+        left: -100%;
+        transition: all .5s;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    header nav ul li:last-child {
+        margin-right: 50px;
+    }
+    
+    header nav ul li a {
+        font-size: 2rem;
+    }
+
+    header nav ul li a:hover {
+        color: #B0C4DE;
+        background-color: none;
+    }
+
+    header nav input:checked ~ ul {
+        left: 0;
+    }
+
+}
