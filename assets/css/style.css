@@ -16,7 +16,7 @@ body {
 
 header {
     height: 60px;
-    background-color: #eeeeee;
+    background-color: #fefefe;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.342);
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ header nav ul li:last-child {
 }
 
 header nav ul li a {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 10px 10px;
     color: #696969;
     transition: .5s;
@@ -62,16 +62,3 @@ header nav label {
     cursor: pointer;
     display: none;
 }
-
-@media (max-width: 952px) {
-    header img {
-        padding-left: 35px;
-        transition: .5s;
-    }
-
-    header nav ul li a {
-        font-size: 1.6rem;
-    }
-
-}
-
