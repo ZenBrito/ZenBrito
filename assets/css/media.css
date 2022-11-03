@@ -24,7 +24,7 @@
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: #eeeeee;
+        background-color: #fefefe;
         top: 60px;
         left: -100%;
         transition: all .5s;
@@ -53,4 +53,42 @@
         left: 0;
     }
 
+}
+
+@media (max-width: 600px) {
+    div.grid-container {
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    div.image-perfil,
+    div.info {
+        flex: 1 1 100%;
+    }
+
+    div.image-perfil img {
+        width: 250px;
+        height: auto;
+    }
+
+    div.info {
+        order: 1;
+    }
+
+    div.info img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    div.image-perfil img {
+        width: 230px;
+        height: auto;
+    }
+
+    div.info img {
+        width: 200px;
+        height: auto;
+    }
 }

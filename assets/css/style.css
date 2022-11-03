@@ -17,11 +17,10 @@ body {
 header {
     height: 60px;
     background-color: #fefefe;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.342);
+    /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.342); */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 
 header img {
@@ -49,7 +48,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #B0C4DE;
+    color: #D3D3D3;
 }
 
 header nav #check {
@@ -61,4 +60,83 @@ header nav label {
     line-height: 60px;
     cursor: pointer;
     display: none;
+}
+
+section.home {
+    width: 100%;/
+    background-color: burlywood;
+}
+
+div.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 10px;
+    /* background-color: brown; */
+}
+
+div.grid-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.info, div.image-perfil {
+    flex: 1 1 0;
+    height: 100%;
+}
+
+div.image-perfil img {
+    width: 300px;
+    height: auto;
+}
+
+div.info {
+    text-align: center;
+}
+
+div.info h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #A9A9A9;
+    font-style: italic;
+}
+
+div.image-perfil {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div.social-media {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+div.social-media a {
+    font-size: 2rem;
+    color: #D3D3D3;
+    transition: .5s;
+    padding: 0 10px;
+}
+
+div.social-media a:hover {
+    color: #A9A9A9;
+}
+
+section.sobre {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+section.sobre h2 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+section.sobre p {
+    font-size: 1.6rem;
+    text-align: justify;
+    line-height: 30px;
 }
