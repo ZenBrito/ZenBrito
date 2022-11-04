@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="shortcut icon" href="./assets/img/logo_icon.png" type="image/x-icon">
@@ -12,60 +11,69 @@
     <title>Zen Brito</title>
 </head>
 <body>
-    
     <header>
-        
-        <a href="#">
-            <img src="./assets/img/logo.png" alt="Imagem Logo Z">
-        </a>
-
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check"><i class="fa-solid fa-bars"></i></label>
-
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
             </ul>
+
+            <div class="menu-hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
-    <main>
-        
-    <section class="home">
-        <div class="container">
-            <div class="grid-container">
-                <div class="info">
-                    <h3>Olá, me chamo</h3>
-                    <img src="./assets/img/nome_principal.png" alt="">
-                    <div class="social-media">
-                        <a href="https://www.linkedin.com/in/zeniltonbrito"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/ZenBrito"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-discord"></i></a>
-                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                    </div>
 
+    <main>
+        <section class="about-me">
+            <div class="main-container container">
+                <div class="info-content">
+                    <h1>Olá, sou Zen Brito</h1>
+                    <h2>Dev Front-End</h2>
+                    <p>Seja bem vindx, me chamo Zenilton Brito ou comumente me chamam, apenas por Zen, sinta-se à vontade.
+                    Sou formado em psicologia e atualmente graduando em TI, curso Análise e Desenvolvimento de Sistemas, na Estácio Recife, iniciando o terceiro período.</p>
+                    
+                        <a href="#">Baixar currículo</a>
+                    
                 </div>
-                <div class="image-perfil">
-                    <img src="./assets/img/foto_perfil.png" alt="Imagem de Perfil">
+
+                <div class="image-container">
+                    <img src="./assets/img/foto_perfil.png" alt="Imagem de perfil">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="main-skills">
+            <div class="tittle-skills container">
+                <h2>Princispais Skills</h2>
+
+                <div class="image-skills">
+                    <img src="./assets/img/html5.png" alt="Símbolo HTML5">
+                    <img src="./assets/img/css3.png" alt="Símbolo CSS3">
+                    <img src="./assets/img/javascript.png" alt="Símbolo JavaScript">
+                    <img src="./assets/img/Bootstrap.png" alt="Símbolo Bootstrap5">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="sobre">
-        <div class="container">
-            <h2>Sobre</h2>
+        <section class="project">
+            <div class="container">
+                <h2>Projetos</h2>
 
-            <p>Granduando em Análise e Desenvolvimento de Sistemas</p>
-        </div>
-    </section>
-
-    <section class="home">
-        <h1>Conteúdo</h1>
-    </section>
-    
+                
+            </div>
+        </section>
     </main>
+    
+    <footer>
+
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

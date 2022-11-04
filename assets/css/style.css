@@ -1,142 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Outfit&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
     text-decoration: none;
-}
-
-html {
-    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body {
-    font-size: 1.6rem;
-    color: #696969;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Heebo';
+    color: #1C1C1C;
 }
 
-header {
-    height: 60px;
-    background-color: #fefefe;
-    /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.342); */
+a {
+    color: #1C1C1C;
+    transition: .5s;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #C0C0C0;
+}
+
+nav {
+    min-height: 70px;
     display: flex;
     align-items: center;
+    justify-content: end;
+    padding: 0 34px;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #4F4F4F;
+    transition: all 0.3s ease-in-out;
+}
+
+section {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.container {
+    width: 860px;
+    margin: 0 auto;
+}
+
+div.main-container {
+    /* height: 70vh; */
+    margin: 160px auto 0;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-header img {
-    width: 40px;
-    padding-left: 100px;
-}
-
-header label {
-    font-size: 2.5rem;
-}
-
-header nav ul li {
-    display: inline-block;
-}
-
-header nav ul li:last-child {
-    margin-right: 90px;
-}
-
-header nav ul li a {
-    font-size: 1.6rem;
-    padding: 10px 10px;
-    color: #696969;
-    transition: .5s;
-}
-
-header nav ul li a:hover {
-    color: #D3D3D3;
-}
-
-header nav #check {
-    display: none;
-}
-
-header nav label {
-    float: right;
-    line-height: 60px;
-    cursor: pointer;
-    display: none;
-}
-
-section.home {
-    width: 100%;/
-    background-color: burlywood;
-}
-
-div.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 50px 10px;
-    /* background-color: brown; */
-}
-
-div.grid-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-div.info, div.image-perfil {
+div.info-content,
+div.image-container {
     flex: 1 1 0;
     height: 100%;
 }
 
-div.image-perfil img {
-    width: 300px;
-    height: auto;
+div.info-content {
+    margin-bottom: 60px;
 }
 
-div.info {
-    text-align: center;
+div.info-content h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
 }
 
-div.info h3 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #A9A9A9;
-    font-style: italic;
-}
-
-div.image-perfil {
-    padding-top: 50px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-div.social-media {
-    width: 300px;
-    margin: auto;
+div.info-content h2 {
     margin-bottom: 40px;
 }
 
-div.social-media a {
-    font-size: 2rem;
-    color: #D3D3D3;
-    transition: .5s;
-    padding: 0 10px;
-}
-
-div.social-media a:hover {
-    color: #A9A9A9;
-}
-
-section.sobre {
-    width: 100%;
-    background-color: #f1f1f1;
-}
-
-section.sobre h2 {
-    font-size: 3rem;
-    padding-bottom: 20px;
-}
-
-section.sobre p {
-    font-size: 1.6rem;
+div.info-content p {
+    width: 497px;
     text-align: justify;
+    font-size: 1rem;
     line-height: 30px;
+    margin-bottom: 50px;
+}
+
+div.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.image-container img {
+    width: 243px;
+    height: 243px;
+}
+
+div.info-content a {
+    margin-top: 60px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 9px;
+    color: #FFF;
+    background-color: #FF7F50;
+}
+
+div.info-content a:hover {
+    border: 1px solid #FF7F50;
+    background-color: #FFF;
+    color: #FF7F50;
+    font-weight: 500;
+}
+
+div.tittle-skills {
+    position: relative;
+    border-top: 1px solid #CCC;
+    margin-top: 40px;
+}
+
+div.tittle-skills h2 {
+    position: absolute;
+    top: -19px;
+    left: 325px;
+    padding: 0 20px;
+    background-color: #FFF;
+    color: #808080;
+}
+
+div.image-skills {
+    text-align: center;
+    padding: 80px 0;
+}
+
+div.image-skills img {
+    width: 60px;
+    margin-left: 10px;
+}
+
+section.project {
+    width: 100%;
+    height: 50vh;
+    padding: 50px 0;
+    background-color: #3b9cc4;
 }
