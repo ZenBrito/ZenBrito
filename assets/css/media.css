@@ -296,6 +296,10 @@
         position: absolute;
         left: 65px;
     }
+
+    .form-contact h2 {
+        left: 125px;
+    }
 }
 
 @media (max-width: 393px) {
