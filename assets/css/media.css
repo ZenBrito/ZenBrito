@@ -1,4 +1,8 @@
 @media (max-width: 900px) {
+    header {
+        margin-bottom: 60px;
+    }
+    
     .container {
         width: 100%;
         margin: 0 auto;
@@ -7,6 +11,11 @@
     .my-project {
         padding: 80px 20px;
     }
+
+    .about-me {
+        margin-bottom: 50px;
+    }
+
 }
 
 @media (max-width: 820px) {
@@ -75,6 +84,10 @@
         margin: 0 auto;
     }
 
+    .form-contact h2 {
+        left: 330px;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -87,7 +100,10 @@
     .container {
         width: 100%;
         margin: 0 auto;
-        /* padding: 0 20px; */
+    }
+
+    .form-contact h2 {
+        left: 320px;
     }
 }
 
@@ -187,7 +203,15 @@
     .container {
         width: 100%;
         margin: 0 auto;
-        /* padding: 0 20px; */
+    }
+
+    form {
+        width: 100%;
+        margin: auto;
+    }
+
+    .form-contact h2 {
+        left: 310px;
     }
 
 }
@@ -200,11 +224,21 @@
     }
 }
 
+@media (max-width: 712px) {
+    .form-contact h2 {
+        left: 280px;
+    }
+}
+
 @media (max-width: 640px) {
 
     .tittle-skills h2 {
         position: absolute;
         left: 187px;
+    }
+
+    .form-contact h2 {
+        left: 240px;
     }
 }
 
@@ -214,6 +248,10 @@
         position: absolute;
         left: 168px;
     }
+
+    .form-contact h2 {
+        left: 225px;
+    }
 }
 
 @media (max-width: 540px) {
@@ -221,6 +259,10 @@
     .tittle-skills h2 {
         position: absolute;
         left: 135px;
+    }
+
+    .form-contact h2 {
+        left: 190px;
     }
 }
 
@@ -230,6 +272,10 @@
         position: absolute;
         left: 105px;
     }
+
+    .form-contact h2 {
+        left: 160px;
+    }
 }
 
 @media (max-width: 414px) {
@@ -237,6 +283,10 @@
     .tittle-skills h2 {
         position: absolute;
         left: 73px;
+    }
+
+    .form-contact h2 {
+        left: 125px;
     }
 }
 
@@ -255,6 +305,11 @@
         left: 63px;
     }
 
+    .form-contact h2 {
+        left: 118px;
+    }
+}
+
 @media (max-width: 390px) {
 
     .tittle-skills h2 {
@@ -262,11 +317,26 @@
         left: 60px;
     }
 
+    .form-contact h2 {
+        left: 118px;
+    }
+}
+
+@media (max-width: 384px) {
+    .form-contact h2 {
+        left: 110px;
+    }
+}
+
 @media (max-width: 375px) {
 
     .tittle-skills h2 {
         position: absolute;
         left: 57px;
+    }
+
+    .form-contact h2 {
+        left: 107px;
     }
     
 }
@@ -277,6 +347,10 @@
         position: absolute;
         left: 48px;
     }
+
+    .form-contact h2 {
+        left: 99px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -284,5 +358,9 @@
     .tittle-skills h2 {
         position: absolute;
         left: 27px;
+    }
+
+    .form-contact h2 {
+        left: 80px;
     }
 }

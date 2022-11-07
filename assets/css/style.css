@@ -65,8 +65,11 @@ section {
     margin: 0 auto;
 }
 
+.about-me {
+    margin-bottom: 80px;
+}
+
 .main-container {
-    /* height: 70vh; */
     margin: 160px auto 0;
     display: flex;
     flex-direction: row;
@@ -158,6 +161,7 @@ section {
     width: 100%;
     padding: 80px 0;
     background-color: #3b9cc4;
+    margin-bottom: 120px;
 }
 
 .projects h2 {
@@ -170,6 +174,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding-bottom: 30px;
 }
 
 .grid-project div {
@@ -195,4 +200,85 @@ section {
     text-align: justify;
     margin: 0 23px;
     padding-bottom: 16px;
+}
+
+.form-contact {
+    border-top: 1px solid #CCC;
+    padding: 50px 0;
+    position: relative;
+    /* background-color: #FF7F50; */
+}
+
+.form-contact h2 {
+    position: absolute;
+    text-align: center;
+    top: -19px;
+    left: 370px;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: #808080;
+    padding: 0 20px;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    /* background-color: chartreuse; */
+}
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+
+label {
+    color: #808080;
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+}
+
+input, textarea {
+    border: 1px solid #C0C0C0;
+    height: 40px;
+    outline: 0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font: Normal 1rem 'Heebo';
+}
+
+textarea {
+    height: 80px;
+}
+
+.btn-form {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+    margin: auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4F4F4F;
+    color: #FFF;
+    font-weight: bold;
+    transition: .5s;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background-color: #808080;
+    color: #FFF;
+}
+
+footer {
+    height: 300px;
+    background-color: #CCC;
 }
