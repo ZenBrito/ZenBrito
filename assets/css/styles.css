@@ -27,6 +27,12 @@ body {
     color: var(--primary-text-color);
 }
 
+header {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 120px;
+}
+
 img {
     width: 100%;
 }
@@ -34,12 +40,6 @@ img {
 .container {
     width: 960px;
     margin: auto;
-}
-
-header {
-    width: 100%;
-    height: 60px;
-    margin-bottom: 120px;
 }
 
 #navbar {
@@ -112,14 +112,14 @@ header {
     background-color: var(--main-color);
 }
 
-.st-title {
+.title {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.st-title h3 {
+.title h3 {
     font-size: 1.3rem;
     z-index: 1;
     background-color: var(--secondary-text-color);
@@ -127,10 +127,10 @@ header {
     padding: 0 1rem;
 }
 
-.st-line-bottom {
+.line-bottom {
     width: 100%;
     position: absolute;
-    border: 1px solid var(--secondary-bg-color);
+    border-bottom: 1px solid var(--secondary-bg-color);
 }
 
 .st-content {
@@ -156,11 +156,12 @@ header {
     background-color: var(--main-color);
 }
 
-.content-project {
+.project-content,
+.contact-form {
     padding: 80px 0;
 }
 
-.content-project h2 {
+.project-content h2 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 40px;
@@ -228,3 +229,108 @@ header {
     color: var(--tertiary-bg-color);
     background-color: var(--secondary-text-color);
 }
+
+#contact {
+    width: 100%;
+}
+
+.contact-title {
+    margin-bottom: 40px;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    z-index: 1;
+    color: var(--tertiary-bg-color);
+    background-color: var(--secondary-text-color);
+    padding: 0 1rem;
+}
+
+.initial-fields {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.initial-fields label, input {
+    width: 100%;
+    display: block;
+}
+
+.initial-fields label,
+.complementary-fields label {
+    font-size: 1rem;
+    color: var(--secondary-color);
+    margin-bottom: 3px;
+}
+
+.initial-fields input,
+.complementary-fields input,
+.complementary-fields textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-bg-color);
+    outline: 0;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+.initial-fields input::placeholder,
+.complementary-fields input::placeholder,
+.complementary-fields textarea::placeholder {
+    color: var(--secondary-bg-color);
+}
+
+.name,
+.tel {
+    flex: 1 1 0;
+}
+
+.complementary-fields {
+    width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.complementary-fields input, textarea {
+    width: 100%;
+    display: block;
+}
+
+.complementary-fields input {
+    margin-bottom: 30px;
+}
+
+.complementary-fields textarea {
+    height: 120px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.btn-submit {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: #FF7F50; */
+}
+
+.btn-submit input[type="submit"] {
+    padding: 0.8rem;
+    width: 150px;
+    border-radius: 5px;
+    background-color: var(--tertiary-bg-color);
+    color: var(--secondary-text-color);
+    font-weight: bold;
+    border: 1px solid var(--tertiary-bg-color);
+    transition: 0.4s;
+}
+
+.btn-submit input[type="submit"]:hover {
+    color: var(--tertiary-bg-color);
+    background-color: var(--secondary-text-color);
+}
+

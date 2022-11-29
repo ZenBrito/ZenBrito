@@ -45,24 +45,33 @@
         text-align: center;
     }
 
-    .skills-tools {
-        width: 100%;
-    }
-
     .st-content img {
         width: 20px;
         height: auto;
         opacity: 0.8;
     }
 
+    .skills-tools,
     #projects,
-    .content-project {
+    .project-content,
+    .contact-form,
+    .initial-fields,
+    .complementary-fields,
+    .btn-submit {
         width: 100%;
     }
 
-    .content-project h2 {
+    .project-content h2 {
         font-size: 1.5rem;
     }
 
+    .name,
+    .tel {
+        flex: 1 1 100%;
+    }
+
+    .name {
+        order: -1;
+    }
 
 }
