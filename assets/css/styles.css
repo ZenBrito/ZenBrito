@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --main-color: #324B77;
+    --primary-text-color: #1C1C1C;
+    --secondary-text-color: #FFFFFF;
+    --secondary-color: #A9A9A9;
+    --tertiary-color: #FF7F50;
+    --secondary-bg-color: #DCDCDC;
+    --tertiary-bg-color: #696969;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins';
+    color: var(--primary-text-color);
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 120px;
+}
+
+#navbar {
+    width: 70%;
+    border-bottom: 1px solid var(--secondary-bg-color);
+}
+
+#navbar a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .4s;
+    color: var(--tertiary-bg-color);
+}
+
+#navbar a:hover {
+    color: var(--secondary-color);
+}
+
+#menu {
+    height: 100%;
+    line-height: 60px;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 100px;
+}
+
+/* .about-info,
+.about-image {
+    flex: 1 1 5;
+} */
+
+.about-info h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-info p {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#about-button a {
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    transition: 0.4s;
+    color: var(--secondary-text-color);
+    border: 1px solid var(--tertiary-color);
+    background-color: var(--tertiary-color);
+}
+
+#about-button a:hover {
+    color: var(--tertiary-color);
+    border: 1px solid var(--tertiary-color);
+    background-color: var(--secondary-text-color);
+}
+
+.about-image {
+    text-align: right;
+}
+
+.about-image img {
+    width: 300px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}
