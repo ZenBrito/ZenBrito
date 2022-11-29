@@ -3,7 +3,7 @@
         margin-bottom: 80px;
     }
 
-    main {
+    section {
         padding: 0 20px;
     }
 
@@ -43,6 +43,25 @@
 
     #about-button {
         text-align: center;
+    }
+
+    .skills-tools {
+        width: 100%;
+    }
+
+    .st-content img {
+        width: 20px;
+        height: auto;
+        opacity: 0.8;
+    }
+
+    #projects,
+    .content-project {
+        width: 100%;
+    }
+
+    .content-project h2 {
+        font-size: 1.5rem;
     }
 
 

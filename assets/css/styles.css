@@ -74,11 +74,6 @@ header {
     margin-bottom: 100px;
 }
 
-/* .about-info,
-.about-image {
-    flex: 1 1 5;
-} */
-
 .about-info h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -115,4 +110,121 @@ header {
     width: 300px;
     border-radius: 50%;
     background-color: var(--main-color);
+}
+
+.st-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.st-title h3 {
+    font-size: 1.3rem;
+    z-index: 1;
+    background-color: var(--secondary-text-color);
+    color: var(--secondary-color);
+    padding: 0 1rem;
+}
+
+.st-line-bottom {
+    width: 100%;
+    position: absolute;
+    border: 1px solid var(--secondary-bg-color);
+}
+
+.st-content {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.st-content img {
+    width: 30px;
+    height: auto;
+    padding: 20px 0;
+    opacity: 0.7;
+}
+
+.st-content img:hover {
+    opacity: 100%;
+}
+
+#projects {
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.content-project {
+    padding: 80px 0;
+}
+
+.content-project h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--secondary-text-color);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    width: 400px;
+    border-radius: 10px;
+    background-color: var(--secondary-text-color);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-info {
+    padding: 20px 40px;
+}
+
+.card-info h4 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-info p {
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.card-info h5 {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: var(--tertiary-bg-color);
+}
+
+.card-info p:nth-child(4) {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}
+
+.card-btn {
+    text-align: center;
+}
+
+.card-btn a {
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+    color: var(--secondary-text-color);
+    background-color: var(--tertiary-bg-color);
+    border: 1px solid var(--tertiary-bg-color);
+    transition: 0.4s;
+}
+
+.card-btn a:hover {
+    color: var(--tertiary-bg-color);
+    background-color: var(--secondary-text-color);
 }
