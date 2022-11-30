@@ -208,8 +208,9 @@ img {
 }
 
 .card-info p:nth-child(4) {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: var(--secondary-color);
+    margin-bottom: 30px;
 }
 
 .card-btn {
