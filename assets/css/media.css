@@ -3,7 +3,8 @@
         margin-bottom: 80px;
     }
 
-    section {
+    section,
+    footer {
         padding: 0 20px;
     }
 
@@ -57,7 +58,9 @@
     .contact-form,
     .initial-fields,
     .complementary-fields,
-    .btn-submit {
+    .btn-submit,
+    #footer,
+    .container {
         width: 100%;
     }
 
@@ -72,6 +75,10 @@
 
     .name {
         order: -1;
+    }
+
+    .social-medias {
+        width: 90%;
     }
 
 }
