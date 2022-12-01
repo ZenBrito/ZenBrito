@@ -148,7 +148,7 @@
                         <div class="line-bottom"></div>
                     </div>
 
-                <form id="form">
+                <form name="contactForm" action="https://formsubmit.co/3b36cafe17909d2547e6b939407ed7e0" method="post" id="form">
                     <div class="initial-fields">
                         <div class="name">
                             <label for="name">Nome:</label>
@@ -157,6 +157,7 @@
                                 id="name"
                                 placeholder="Digite seu nome"
                                 maxlength="40"
+                                required
                             >
                         </div>
                         <div class="tel">
@@ -165,7 +166,9 @@
                                 type="tel"
                                 name="tel"
                                 id="tel"
-                                placeholder="(00) 99999-9999"
+                                placeholder="(00) 00000-0000"
+                                maxlength="15"
+                                required
                         >
                         </div>
                     </div>
@@ -176,18 +179,23 @@
                             name="email"
                             id="email"
                             placeholder="Digite seu email"
+                            required
                         >
 
                         <label for="msg">Mensagem:</label>
                         <textarea
                             name="msg"
                             id="msg"
-                            placeholder="Digite sua mensagem"    
+                            placeholder="Digite sua mensagem" 
+                            required   
                         ></textarea>
                     </div>
                     <div class="btn-submit">
                         <input type="submit" value="Enviar">
                     </div>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5501/confirmacao.html">
                 </form>
             </div>
         </section>
