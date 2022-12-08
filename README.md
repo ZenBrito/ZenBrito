@@ -1,34 +1,43 @@
-## Hi, I'm Zenilton Brito
-<img align="center" alt="IMG" src="./img/banner_oficial.png">
-<br>
+<img align="right" height="590em" src="https://raw.githubusercontent.com/gist/ZenBrito/b6ed7a690d420e6af8051774fca46b29/raw/c25b610427ea89f2925374a8f2f70d97d9be8beb/githubcard.svg"/>
+<h1 align="left"> 👋 Hi, I'm Zen Brito</h1>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=zenbrito&color=yellow" alt="Profile views" /> </p>
 
-### Main Skills:
+- 🎓 Graduated in Psychology
 
-<div style="display: inline_block"><br>
-   <img align="center" alt="Zen-C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
-  <img align="center" alt="Zen-HTML5" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-  <img align="center" alt="Zen-CSS3" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-</div><br>
+- 👨‍🎓 Currently majoring in Systems Analysis and Development
 
-### Tools:
-<div style="display: inline_block"><br>
-  <img align="center" alt="Zen-VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
-   <img align="center" alt="Zen-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-   <img align="center" alt="Zen-GitHub" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
-   <img align="center" alt="Zen-Gimp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg">
-    <img align="center" alt="Zen-Gimp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg">
-</div><br>
+- ⚙️ My main projects: [IMC Calc](https://calculadora-imc-sable-nu.vercel.app/), [Arte Urbana](https://arturbana.vercel.app/)
 
-<hr>
+- 🎮 I love games
 
-### GitHub Analytics:<br>
-<p align="center">    
-   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=zenbrito&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-    <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenbrito&layout=compact&langs_count=7&theme=dark"/>
-    <hr/>    
-    <h3 align="center">Zenilton Brito on social media:</h3>
-     <p align="center">
-       <a href="https://www.linkedin.com/in/zen-s-brito-22a108204/"><img height="30" width="30" title="LinkedIn" src="https://raw.githubusercontent.com/ZenBrito/ZenBrito/main/img/linkedin.svg"/></a>
-       <a href="https://github.com/ZenBrito"><img  height="30" width="30"  title="GitHub" src="https://raw.githubusercontent.com/ZenBrito/ZenBrito/main/img/github.svg"/></a>
-    </p>
+<br><br>
+
+## Skills Stacks
+
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap)&nbsp;
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
+![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)&nbsp;
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+
+<br><br>
+
+## GitHub Analytics
+
+<p align="left">
+<img width="530em" src="https://github-readme-stats.vercel.app/api?username=zenbrito&show_icons=true&theme=vision-friendly-dark" alt="zenbrito's stats"/>
+<img width="530em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenbrito&layout=compact&theme=vision-friendly-dark" alt="zenbrito's most languages"/>
+</p>
+
+<br><br>
+
+## Contact
+
+<p align="left" style="background:yellow">
+<a href="https://www.linkedin.com/in/zeniltonbrito/" target="_blank">
+<img align="center" src="https://img.shields.io/badge/-zenbrito-05122A?style=flat&logo=linkedin" alt="linkedin"/>
+</a> 
 </p>
