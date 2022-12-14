@@ -6,6 +6,8 @@
 
 - 👨‍🎓 Currently majoring in Systems Analysis and Development
 
+- 📄 My projects page: [Zen Brito](https://zenbrito.vercel.app/)
+
 - ⚙️ My main projects: [IMC Calc](https://calculadora-imc-sable-nu.vercel.app/), [Arte Urbana](https://arturbana.vercel.app/)
 
 - 🎮 I love games
